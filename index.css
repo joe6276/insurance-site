@@ -163,7 +163,7 @@ body{
 }
 .section2{
     margin-top: 200px;
-    background-color: white;
+    background-color: #fff;
     color:black;
     display: flex;
     justify-content: space-evenly;
@@ -233,3 +233,47 @@ align-items: center;
     height:20px;
     color: orange;
 }
+.logos{
+    display: flex;
+    gap: 50px;
+}
+
+.log{
+    width: 70px;
+    height:70px;
+}
+
+.subscribe{
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+   display: flex;
+   justify-content: space-around;
+    background:linear-gradient(to right ,rgb(7, 7, 87), #b00cf4);
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.form-subscribe{
+display: inline-flex;
+
+}
+
+ .form-subscribe input{
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-style: none;
+}
+
+.form-subscribe button{
+   padding: 15px 15px ;
+   background-color: #23a6f0;
+   border-style: none;
+   color: white;
+   font-style: bold;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius:5px;
+} 
+
