@@ -258,6 +258,7 @@ align-items: center;
 .form-subscribe{
 display: inline-flex;
 
+
 }
 
  .form-subscribe input{
@@ -276,4 +277,163 @@ display: inline-flex;
    border-top-right-radius: 5px;
    border-bottom-right-radius:5px;
 } 
+.section_pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 
+.pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+}
+.prices{
+    display: flex;
+}
+.price-cards{
+    display: flex;
+}.price-cards h1{
+    color: #23a6f0;
+}
+.price-cards1 , .price-cards3{
+    border: 1px solid #23a6f0;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 25px ;
+    margin-top: 30px;
+}
+ .price-cards2 {
+    border: 1px solid #23a6f0;
+    width: 300px;
+    background-color: #252b42;
+     color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 25px ;
+}
+.prod{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  
+}
+
+.dolar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.green{
+    color: green;
+    width: 20px;
+     height: 20px;
+}
+.gray{
+     color:gray;
+     width: 20px;
+     height: 20px;
+}
+
+.price-cards1 button , .price-cards2 button , .price-cards3 button{
+    padding:  20px 50px;
+    color: white;
+    background-color: #23a6f0;
+    font-size: 20px;
+    border-style: none;
+}
+
+
+.contact-container{
+    height: 60vh;
+    width: 80%;
+    background-color: #252b42; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.contact1{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.contact-header{
+    width: 60%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact-img{
+    width: 40%;
+    height: 100%;
+}
+.contact-img img{
+    background-image: url('./images/pingwig.png');
+    background-size: contain;
+     background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+  
+}
+
+.contact-form2{
+    width: 600px;
+    height:500px;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    position: absolute;
+     transform: translateY(60%);
+
+}
+
+.contact-form-img{
+width: 40%;
+height: 100%;
+}
+
+.contact-form-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.contact-form-form{
+    width:60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    }
+
+    .contact-form-form input , select{
+        padding: 15px;
+        background-color: #fbfcfb;
+        width: 100%;
+        border-style: 1px solid #fbfcfb;
+        border-radius: 10px;
+    }
+
+    .contact-form-form button{
+        background-color: #23a6f0;
+        color: white;
+        padding: 15px 60px;
+        border-style: none;
+        border-radius: 10px;
+    }
