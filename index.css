@@ -435,5 +435,61 @@ height: 100%;
         color: white;
         padding: 15px 60px;
         border-style: none;
+        font-size: 20px;
         border-radius: 10px;
     }
+
+    .contact-4{
+        display: flex;
+        margin-top: 320px;
+        width: 80%;
+        justify-content: space-between;
+        color: black;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .contact-4 button{
+        border-style: none;
+        padding: 10px 20px;
+        background-color: #23a6f0;
+        border-radius: 5px;
+        color: white;
+         font-size:20px;
+    }
+
+    .footer{
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer div a {
+        text-decoration: none;
+         color: black;
+    }
+    .contact-icon{
+        color: #23a6f0;
+        width: 20px;
+        height: 20px;
+    }
+
+.footer_last{
+    display: flex;
+   height: 5vh ;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.footer_last div{
+    display: flex;
+    gap:10px
+}
